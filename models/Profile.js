@@ -11,7 +11,12 @@ const ProfileSchema = new Schema({
   },
   bio: {
     type: String,
-  }
+  },
+  handle: {
+    type: String,
+    required: true,
+    max: 30
+  },
 });
 
 module.exports = Profile = mongoose.model('profile', ProfileSchema);

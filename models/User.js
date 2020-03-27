@@ -7,11 +7,6 @@ const userSchema = new Schema({
     type: String,
     required: true
   },
-  handle: {
-    type: String,
-    required: true,
-    max: 30
-  },
   email: {
     type: String,
     required: true
