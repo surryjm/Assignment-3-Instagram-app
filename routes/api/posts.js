@@ -8,7 +8,6 @@ const passport = require('passport');
 const Post = require('../../models/Post');
 // Profile model
 const Profile = require('../../models/Profile');
-
 // Validation
 const validatePostInput = require('../../validation/post');
 
@@ -17,6 +16,7 @@ const validatePostInput = require('../../validation/post');
 // @access Public
 
 //router.get('/test', (req, res) => res.json({msg: 'Posts works!'}));
+
 router.get('/', (req, res) => {
   Post.find()
     .sort({ date: -1 })
@@ -57,6 +57,7 @@ router.post(
       text: req.body.text,
       name: req.body.name,
       avatar: req.body.avatar,
+      image: req.body.image,
       user: req.user.id
     });
 
