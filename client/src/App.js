@@ -8,9 +8,11 @@ import Landing from './components/layout/Landing';
 import Footer from './components/layout/Footer';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
+import { logoutUser } from './actions/authActions';
 import setAuthToken from './utils/setAuthToken';
 import { SET_CURRENT_USER } from './actions/types';
 import jwt_decode from 'jwt-decode';
+//import Carousel from './components/layout/carousel';
 
 if (localStorage.jwtToken){
   //decode
