@@ -16,7 +16,7 @@ import jwt_decode from 'jwt-decode';
 
 if (localStorage.jwtToken){
   //decode
-  const decoded = jwt_decode(localStorage.jtwToken);
+  const decoded = jwt_decode(localStorage.jwtToken);
 
   //check for expired token
   const currentTime = Date.now() / 1000; //make it into seconds, vs. miliseconds
