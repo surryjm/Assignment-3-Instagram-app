@@ -12,7 +12,7 @@ import { logoutUser } from './actions/authActions';
 import setAuthToken from './utils/setAuthToken';
 import { SET_CURRENT_USER } from './actions/types';
 import jwt_decode from 'jwt-decode';
-//import Carousel from './components/layout/carousel';
+//import BackgroundCarousel from './components/layout/carousel';
 
 if (localStorage.jwtToken){
   //decode

@@ -4,7 +4,7 @@ img {
 
 .landing {
   position: relative;
-  background: url('https://source.unsplash.com/jKGFqL3llv0/2400x1600') no-repeat;
+  /*background: url('https://source.unsplash.com/jKGFqL3llv0/2400x1600') no-repeat;
   /*background: url('./img/showcase.jpg') no-repeat; */
   background-size: cover;
   background-position: center;
@@ -19,6 +19,14 @@ img {
 }
 
 /*
+.landing .item-1 {
+  background: url('https://source.unsplash.com/jKGFqL3llv0/2400x1600') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+*/
+
+/*
 #slide-0 {
   background: url("./img/jack-church-jKGFqL3llv0-unsplash.jpg")
 }
@@ -31,12 +39,6 @@ img {
   background: url("./img/jack-church-jKGFqL3llv0-unsplash.jpg")
 }
 */
-
-.slide-image {
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 100%;
-}
 
 .landing-inner {
   padding-top: 80px;
